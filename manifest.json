@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "Youtube Notes",
+    "description": "A Chrome extension to take notes on Youtube videos.",
+    "version": "1.0",
+    "action": {
+      "default_popup": "index.html"
+    },
+    "icons": {
+    "128": "YTNotesLogo.png"
+    },
+    "permissions": [
+      "scripting",
+      "activeTab",
+      "storage"
+    ],
+    "host_permissions": [
+      "https://www.youtube.com/*"
+    ],
+    "web_accessible_resources": [
+  {
+    "resources": [
+      "yt_notes/dist/index.html",
+      "yt_notes/dist/assets/*",
+      "injector_style.css"
+    ],
+    "matches": ["<all_urls>"]
+  }
+]
+
+  }
+  

@@ -1,0 +1,72 @@
+#askify-container {
+    bottom: 20px;
+    right: 20px;
+    background: rgba(246, 246, 246, 0.941);
+    border-radius: 1rem;
+    padding: 10px;
+    margin-top: 10px;
+    height: 2rem;
+    width: 5rem;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f0f0f0;
+    height: 5rem;
+    width: 4rem;
+}
+
+#askify-container h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#askify-container p {
+    font-size: 14px;
+    color: #555;
+}
+
+.container{
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.container .top .top_1 .top_1_1 {
+    background-color: transparent;
+    box-shadow: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container .top .top_1 .top_1_1 button {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    padding: 5px 10px;
+    border: 1px solid rgb(82, 26, 251);
+    border-radius: 15px;
+    color: rgb(82, 26, 251);
+    cursor: pointer;
+}
+
+.container .top .top_1 .top_1_1 button:hover {
+    background-color: rgba(207, 201, 209, 0.808);
+    color: rgb(0, 0, 0);
+}
+
+
+
+.container .top .top_1 .top_1_1 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
+
+.middle_2_2{
+    color: rgba(187, 182, 182, 0.888);
+}
